@@ -1,0 +1,15 @@
+Assignment – Polymorphism Overloading
+Write an answer of below question and send it for review.
+1] List down some of java method’s where method overloading is used.
+-->public void add(float, int)
+  public void add(int, int, int)
+public void add(float, float)
+
+
+4] What is the advantage of method overloading?
+-->-Method overloading increases the readability of the program.
+-This provides flexibility to programmers so that they can call the same method for different types of data.
+-This makes the code look clean.
+-This reduces the execution time because the binding is done in compilation time itself.
+-Method overloading minimises the complexity of the code.
+-In this we can use the code again, which saves memory.
