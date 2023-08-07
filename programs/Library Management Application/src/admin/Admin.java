@@ -5,13 +5,13 @@ import booksInformation.Books;
 import studentsInformation.Students;
 public class Admin 
 {
-String adminId="123";
-String adminpass="123";
+String adminId="Admin";
+String adminpass="Admin";
 
 Scanner sc = new Scanner(System.in);
 Students stobj = new Students();
 Books bobj = new Books();
-public void login()
+public boolean login()
 {
 	System.out.println("Login Page");
 	System.out.println("Enter Id-");
@@ -31,8 +31,9 @@ public void login()
 	else 
 	{
 		System.out.println("Invalid Login");
+		return false;
 	}
-	
+	return true;
 }
 public void adminpage()
 {
@@ -57,6 +58,7 @@ public void adminpage()
     break;
 
 	case 3:
+		bobj.manageBooks();
 		break;
 		
 	case 4:

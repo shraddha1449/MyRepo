@@ -9,13 +9,18 @@ public class Students  {
 	Scanner sc = new Scanner(System.in);
 	int total_student=3;
 	String[] sName = new String[total_student];
+	int[] sRoll = new int[total_student];
 public void addStudents()
 {
 	System.out.println("***Add Students***");
 	for(int i=0;i<total_student;i++)
 	{
+		System.out.println("Enter Student Roll NO.-");
+		sRoll[i]=sc.nextInt();
+		
 		System.out.println("Enter Student Name-");
 		sName[i]=sc.next();
+		
 	}
 	System.out.println();
 	System.out.println("All Students added successfully");	
@@ -26,9 +31,11 @@ public void showStudents()
 	 if (total_student == 0) {
          System.out.println("The student list is empty.");
      } else {
-         System.out.println("Books in the library:");
+         System.out.println("Students Information:");
          for (int i = 0; i < total_student; i++) {
+             System.out.println(sRoll[i]);
              System.out.println(sName[i]);
+             
          }
      }		
 }
