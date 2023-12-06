@@ -1,0 +1,72 @@
+
+Eclipse Install and Use :-
+ Step-1 : Go to https://www.eclipse.org/downloads/ url and download eclipse.
+ Step-2 : Install the downloaded eclipse and open it.
+
+Control Statements :-
+
+1] Decision Making Statements :
+
+	1.1] If Statement (if(), if() else, if() else if() else)
+	
+	1] if(Condition){
+		//if condition is true
+	}
+	
+	2] if(Condition){
+		//if condition is true
+	}else{
+		//if condition is not true
+	}
+	
+	3] if(Condition){
+		//if condition is true
+	}else if(Condition){
+		//if COndition is true
+	} else{
+		//if all above conditions are not true
+	}
+	
+	1.2] Switch Statement
+	
+	switch(expression){
+		
+		case constant1:
+		//Code
+		break;
+		
+		case constant2:
+		//Code
+		break;
+		
+		case constant3:
+		//Code
+		break;
+		
+		default:
+		//code
+	}
+	
+ 2] Loops Statement
+ 
+	2.1] for     2.2] for each loop
+	2.3] while loop  2.4] Do while
+	
+	for(initialization ; condition ; increament/decreament){
+			
+		//code 
+	}
+	
+	//initialization
+	while(condition){
+		//code
+		
+		//increament/decreament
+	}
+	
+	do{
+		//code
+	} while(condition);
+	
+3] Jumb Statement
+	3.1] break 3.2] continue

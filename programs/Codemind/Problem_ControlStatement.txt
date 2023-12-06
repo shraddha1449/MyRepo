@@ -1,0 +1,31 @@
+
+Agenda :-
+
+1] If Else program (Even  or Odd)
+ 14/2 = reminder is 0   15/2 = reminder is 1 
+ 15%2 = 1  17%2 = 1 ...  number%2 ==0 then number will be Even 
+ 
+ if(number%2 ==0){
+	Sysout("Number is even");
+ } else {
+	Sysout("Number is odd");
+ }
+ 
+2] Program to Find sum of Natural number using while and For loop
+
+sum till 10 = 1+2+3+4+5+6+7+8+9+10 = 55   sum till 20 = 1+2+3+4+5+6+......+20 = 210
+
+3] For Loop and While Loop (Calculate Power of number)
+
+// 2^3 = 2*2*2 = 8 , 5^2 = 5*5 = 25 , 10^4 = 10*10*10*10 =10000
+
+
+4] Print the pattern
+
+row = 5
+
+*
+**
+***
+****
+*****
