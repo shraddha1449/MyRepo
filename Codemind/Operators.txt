@@ -1,0 +1,40 @@
+
+
+Operators : - An operator is a character that represent an action. 
+
+1] Arithmetic Operators : +,-, *,/, % (Modulo Operators,  returns reminder)
+
+	5/4 = 1.25   5%4 = 1   7%2 = 1   7%4 = 3   11%3 = 2
+
+2] Assignment Operators : =, +=, -=, *=, /=
+
+int a = 10;
+
+int num1 = 10;
+int num2 = 20;
+
+num1 = num1 + num2;
+num1 += num2;
+
+3] Auto Increament and Decreament : ++, --
+
+4] Logical Operators : &&, ||, !
+
+true && true 
+
+5] Comparison Operators : ==, >=, <=, <, >, !=
+
+6] Bitwise Operators : &, |, <<, >>
+
+4 = 00000100   
+5 = 00000101 = 5>>1 = 00000010 =  1*2^1 = 2
+--------------------
+4&5= 00000100 = 1*2^2 = 4	
+4|5= 00000101 = 1 * 2^2 + 1 * 2^0 = 5
+	
+	5 => 000000101 => 0*2^7 + 0*2^6+ 0*2^5+ 0*2^4+ 0*2^3+ 1*2^2+ 0*2^1+ 1*2^0 =    1*4+0*2 +1*1 
+	
+	4 = +1*2^2+0*2^1+0*2^0;
+	
+7] Turnery Operators :- int res = (expression) ? if true : if false;
+
